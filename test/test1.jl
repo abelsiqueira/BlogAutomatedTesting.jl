@@ -1,7 +1,5 @@
-srcroot = "$(dirname(@__FILE__))/../src"
-include("$srcroot/solve_linear.jl")
-
 using Base.Test
+using BlogAutomatedTesting
 
 ϵ = 1e-12
 

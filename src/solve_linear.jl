@@ -1,3 +1,5 @@
+export linear_system
+
 function linear_system(A, b)
   (m,n) = size(A)
   if m != length(b)
