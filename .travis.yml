@@ -2,6 +2,7 @@ language: julia
 
 julia:
   - release
+  - nightly
 
 script:
   - julia --code-coverage=user --inline=no test/test1.jl
